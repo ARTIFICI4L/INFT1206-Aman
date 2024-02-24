@@ -43,3 +43,30 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: 'FONT1';
+  src: url('Nexa-ExtraLight.ttf') format('opentype');
+}
+  @font-face {
+    font-family: 'FONT2';
+    src: url('Nexa-Heavy.ttf') format('opentype');
+}
+
+/* General font styling for the page */
+body {
+  font-family: 'FONT1', serif; 
+  font-size: 10px; 
+  line-height: 1.6; 
+}
+
+/* Styling for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'FONT2', sans-serif; 
+  letter-spacing: 0.05em;
+}
+
+/* Centering the top level heading and adjusting its size */
+h1 {
+  text-align: center;
+  font-size: 40px; /* Relative size using rem unit */
+}
