@@ -3,3 +3,12 @@ html {
 }
 
 /* Your CSS below here */
+div {
+  width: 200px; height: 200px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 1.125rem; /* assuming the base is font is 16px and I want 18px I would divide 18px/16px = 1.125rem*/
+  background-color: #ee2f0d; /* red background */
+}
