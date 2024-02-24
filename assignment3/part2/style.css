@@ -10,5 +10,11 @@ div {
   align-items: center;
   margin: 0 auto;
   font-size: 1.125rem; /* assuming the base is font is 16px and I want 18px I would divide 18px/16px = 1.125rem*/
-  background-color: #ee2f0d; /* red background */
+  background-color: #ff2600; /* red background */
+  color: #ffffff; /* white text for contrast */
+  text-shadow: 1px 1px 0px #000; /* black text shadow for depth */
+  border-radius: 10px; /* subtle rounded corners */
+  border: 1px solid #E55347; /* slightly darker border for depth */
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), inset 2px 2px 5px rgba(255, 255, 255, 0.5), inset -2px -2px 5px rgba(0, 0, 0, 0.5);
 }
