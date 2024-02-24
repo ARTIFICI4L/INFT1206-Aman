@@ -68,5 +68,38 @@ h1, h2, h3, h4, h5, h6 {
 /* Centering the top level heading and adjusting its size */
 h1 {
   text-align: center;
-  font-size: 40px; /* Relative size using rem unit */
+  font-size: 40px;
+}
+
+/* Link styling */
+a:link, a:visited {
+  color: #0048ff; 
+  text-decoration: underline;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:active {
+  color: #D35400;
+}
+
+/* Navigation menu styling */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+nav li a:hover {
+  background-color: #f4f4f4;
 }
