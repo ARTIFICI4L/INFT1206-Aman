@@ -24,8 +24,8 @@
     <div class="header">
       <font size="7">Welcome to our wildlife website</font>
     </div>
-
-    <div class="nav">
+    <!--removed  div and replaced with nav element-->
+    <nav>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our team</a></li>
@@ -37,17 +37,17 @@
         <input type="search" name="q" placeholder="Search query">
         <input type="submit" value="Go!">
       </form>
-    </div>
+    </nav>
 
     <main>
       <article>
         <font size="6">The trouble with Bears</font>
         <br><br>
-        By Evan Wild
+        <p>By Evan Wild</p>
         <br><br>
-        Tall, lumbering, angry, dangerous. The real live bears of this world are proud, independent creatures, self-serving and always on the hunt for food. Nothing like the bears you see on TV, like Baloo from renowned documentary, The Jungle Book.
+        <p>Tall, lumbering, angry, dangerous. The real live bears of this world are proud, independent creatures, self-serving and always on the hunt for food. Nothing like the bears you see on TV, like Baloo from renowned documentary, The Jungle Book.</p>
         <br><br>
-        So what are bears really like, and why does the world's media portray them with such a skewed vision? In this article we try to answer those questions, and give you a real insight into the life of the bear.
+        <p>So what are bears really like, and why does the world's media portray them with such a skewed vision? In this article we try to answer those questions, and give you a real insight into the life of the bear.</p>
         <br><br>
         <font size="5">Types of bear</font>
         <br><br>
@@ -120,7 +120,8 @@
 
         </aside>
         <section class="comments">
-          <div class="show-hide">Show comments</div>
+          <!--Modified div to button to allow keyboard accessibility-->
+          <button class="show-hide">Show comments</button>
 
           <div class="comment-wrapper">
 
@@ -128,17 +129,18 @@
 
             <form class="comment-form">
               <div class="flex-pair">
-                Your name:
+                <!--Added label tag -->
+                <label for="name">Your name:</label>
                 <input type="text" name="name" id="name" placeholder="Enter your name">
               </div>
               <div class="flex-pair">
-                Your comment:
+                <label for="comment">Your comment:</label>
                 <input type="text" name="comment" id="comment" placeholder="Enter your comment">
               </div>
               <div>
                 <input type="submit" value="Submit comment">
               </div>
-            </form>
+            </form>            
 
             <font size="6">Comments</font>
 
